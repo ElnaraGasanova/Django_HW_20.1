@@ -25,7 +25,7 @@ class Product(models.Model):
     price = models.IntegerField(verbose_name='Цена за покупку')
     created_at = models.DateField(verbose_name='Дата создания (записи в БД)', auto_now_add=True, **NULLABLE)
     updated_at = models.DateField(verbose_name='Дата последнего изменения (записи в БД)', auto_now=True, **NULLABLE)
-    manufactured_at = models.DateField(verbose_name='Дата производства продукта', auto_now=True, **NULLABLE)
+    #manufactured_at = models.DateField(verbose_name='Дата производства продукта', auto_now=True, **NULLABLE)
 
     class Meta:
         verbose_name = "Продукт"
@@ -34,13 +34,3 @@ class Product(models.Model):
 
     def __str__(self):
         return self.name
-
-#
-# categ_1 = Category.objects.create(name='Овощи и Фрукты')
-# categ_2 = Category.objects.create(name='Бакалея')
-# categ_3 = Category.objects.create(name='Хозтовары')
-# categ_4 = Category.objects.create(name='Одежда')
-# prduct_1 = Product.objects.create(name='Ананас', category=categ_1)
-# prduct_2 = Product.objects.create(name='Кофе', category=categ_2)
-# prduct_3 = Product.objects.create(name='Пакеты для мусора', category=categ_3)
-# prduct_4 = Product.objects.create(name='Пижама', category=categ_4)
