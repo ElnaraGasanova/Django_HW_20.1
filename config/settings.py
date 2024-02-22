@@ -54,9 +54,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'djangohomework20',
         'USER': 'postgres',
-        # 'HOST': 'localhost',
-        # 'PORT': '5432',
-        #'PASSWORD': '...'
+        'HOST': 'localhost',
+        'PORT': '5432',
+        'PASSWORD': 'QWErty111'
     }
 }
 
@@ -84,9 +84,9 @@ USE_I18N = True
 USE_TZ = True
 
 STATIC_URL = 'static/'
-# STATICFILES_DIR = (
-#     BASE_DIR / 'static/',
-# )
+STATICFILES_DIR = (
+    BASE_DIR / 'static/',
+)
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
