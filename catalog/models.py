@@ -33,4 +33,4 @@ class Product(models.Model):
         ordering = ["name",]
 
     def __str__(self):
-        return f' {self.price} руб.\n{self.name}\n({self.description})'
+        return f' {self.name}'
