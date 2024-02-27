@@ -7,7 +7,7 @@ def home(request):
     context = {
         'object_list': products
     }
-    return render(request, 'catalog/home.html', context)
+    return render(request, 'catalog/product_list.html', context)
 
 def product_info(request, pk):
     '''Выводит на страницу товар по pk.'''
@@ -15,9 +15,12 @@ def product_info(request, pk):
     context = {
         'object': product
     }
-    return render(request, 'dogs/product_info.html', context)
+    return render(request, 'catalog/product_info.html', context)
 
 
-# def contacts(request):
-#     return render(request, 'catalog/contacts.html')
+def contacts(request):
+    context = {
+        'title': 'contact'
+    }
+    return render(request, 'catalog/contacts.html', context)
 
