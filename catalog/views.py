@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404
-from django.views.generic import ListView, DetailView
+from django.urls import reverse_lazy
+from django.views.generic import ListView, DetailView, CreateView, UpdateView
 
 from catalog.models import Product
 
@@ -13,6 +14,10 @@ class ProductDetailView(DetailView):
     model = Product
 
 
+# Контроллер CBV
+# class ContactsPageView(TemplateView):
+#     template_name = "contacts.html"
+
 # Контроллер FBV
 def contacts(request):
     if request.method == 'POST':
@@ -24,6 +29,24 @@ def contacts(request):
         'title': 'contact'
     }
     return render(request, 'catalog/contacts.html', context)
+
+
+class ProductCreateView(CreateView):
+    '''Описываем поля, которые будут заполняться при создании нового продукта'''
+    model = Product
+    fields = ('name', 'price', 'image')
+    success_url = reverse_lazy('catalog:home')
+
+
+class ProductUpdateView(UpdateView):
+    '''Описываем поля, которые будут заполняться при изменении данных продукта'''
+    model = Product
+    fields = ('name', 'price', 'image', 'category')
+
+    def get_success_url(self):
+        return reverse_lazy('catalog:product_info', args=[self.kwargs.get('pk')])
+
+
 
 # Контроллер FBV
 # def home(request):
