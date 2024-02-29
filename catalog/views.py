@@ -9,10 +9,16 @@ from catalog.models import Product
 class HomeView(ListView):
     model = Product
 
+
 # Контроллер CBV
 class ProductDetailView(DetailView):
     model = Product
 
+    def get_object(self, queryset=None):
+        self.object = super().get_object(queryset)
+        self.object.view_counter += 1
+        self.object.save()
+        return self.object
 
 # Контроллер CBV
 # class ContactsPageView(TemplateView):
