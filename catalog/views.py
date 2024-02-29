@@ -1,6 +1,6 @@
 from django.shortcuts import render, get_object_or_404
 from django.urls import reverse_lazy
-from django.views.generic import ListView, DetailView, CreateView, UpdateView
+from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 
 from catalog.models import Product
 
@@ -47,6 +47,9 @@ class ProductUpdateView(UpdateView):
         return reverse_lazy('catalog:product_info', args=[self.kwargs.get('pk')])
 
 
+class ProductDeleteView(DeleteView):
+    model = Product
+    success_url = reverse_lazy('catalog:home')
 
 # Контроллер FBV
 # def home(request):
