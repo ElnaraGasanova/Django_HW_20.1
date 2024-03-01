@@ -42,7 +42,7 @@ class Product(models.Model):
 
 class Blog(models.Model):
     title = models.CharField(max_length=100, verbose_name='Заголовок', help_text='Укажите заголовок')
-    slug = models.SlugField(unique=True, verbose_name='Slug', **NULLABLE)
+    slug = models.SlugField(unique=True, verbose_name='Человекопонятный URL', **NULLABLE)
     content = models.TextField(verbose_name='Содержимое', **NULLABLE, help_text='Добавьте описание')
     image = models.ImageField(upload_to='blog_images', verbose_name='Изображение (превью)', **NULLABLE,
                               help_text='Приложите фото')
