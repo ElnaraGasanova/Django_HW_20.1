@@ -1,5 +1,6 @@
 from django.db import models
 
+
 NULLABLE = {'blank': True, 'null': True}
 
 
@@ -27,13 +28,33 @@ class Product(models.Model):
     created_at = models.DateField(verbose_name='Дата создания (записи в БД)', auto_now_add=True, **NULLABLE)
     updated_at = models.DateField(verbose_name='Дата последнего изменения (записи в БД)', auto_now=True, **NULLABLE)
     #manufactured_at = models.DateField(verbose_name='Дата производства продукта', auto_now=True, **NULLABLE)
+    #view_counter = models.PositiveIntegerField(verbose_name='Счетчик просмотров',
+                                               #help_text='Укажите кол-во просмотров', default=0)
+
+    class Meta:
+        verbose_name = 'Продукт'
+        verbose_name_plural = 'Продукты'
+        ordering = ['name',]
+
+    def __str__(self):
+        return f' {self.name}'
+
+
+class Blog(models.Model):
+    title = models.CharField(max_length=100, verbose_name='Заголовок', help_text='Укажите заголовок')
+    slug = models.SlugField(unique=True, verbose_name='Slug', **NULLABLE)
+    content = models.TextField(verbose_name='Содержимое', **NULLABLE, help_text='Добавьте описание')
+    image = models.ImageField(upload_to='blog_images', verbose_name='Изображение (превью)', **NULLABLE,
+                              help_text='Приложите фото')
+    created_at = models.DateField(verbose_name='Дата создания', auto_now_add=True, **NULLABLE)
+    published = models.BooleanField(verbose_name='Опубликовано', default=False)
     view_counter = models.PositiveIntegerField(verbose_name='Счетчик просмотров',
                                                help_text='Укажите кол-во просмотров', default=0)
 
     class Meta:
-        verbose_name = "Продукт"
-        verbose_name_plural = "Продукты"
-        ordering = ["name",]
+        verbose_name = 'Публикация'
+        verbose_name_plural = 'Публикации'
+        ordering = ['created_at', 'published', 'view_counter',]
 
     def __str__(self):
-        return f' {self.name}'
+        return f'Запись {self.title} опубликована {self.published}'
