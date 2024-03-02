@@ -1,5 +1,6 @@
 from django.shortcuts import render, get_object_or_404, redirect
 from django.urls import reverse_lazy
+from django.utils.text import slugify
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 
 from catalog.models import Product, Blog
@@ -58,6 +59,14 @@ class BlogUpdateView(UpdateView):
     '''Описываем поля, которые будут заполняться при изменении данных публикации'''
     model = Blog
     fields = ('title', 'content', 'image', 'is_published')
+
+    def form_valid(self, form):
+        if form.is_valid():
+            new_blog = form.save()
+            new_blog.slug = slugify(new_blog.header)
+            new_blog.save()
+
+        return super().form_valid(form)
 
     def get_success_url(self):
         return reverse_lazy('catalog:blog_detail', args=[self.kwargs.get('pk')])
