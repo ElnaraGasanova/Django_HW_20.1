@@ -49,24 +49,24 @@ class BlogDetailView(DetailView):
 
 
 class BlogCreateView(CreateView):
-    '''Описываем поля, которые будут заполняться при создании нового продукта'''
+    '''Описываем поля, которые будут заполняться при создании нов.публикации'''
     model = Blog
-    fields = ('title', 'content', 'created_at')
-    success_url = reverse_lazy('catalog:home')
+    fields = ('title', 'content', 'image')
+    success_url = reverse_lazy('catalog:blg')
 
 
 class BlogUpdateView(UpdateView):
-    '''Описываем поля, которые будут заполняться при изменении данных продукта'''
+    '''Описываем поля, которые будут заполняться при изменении данных публикации'''
     model = Blog
-    fields = ('title', 'content', 'created_at', 'published')
+    fields = ('title', 'content', 'image', 'published')
 
     def get_success_url(self):
-        return reverse_lazy('catalog:product_info', args=[self.kwargs.get('pk')])
+        return reverse_lazy('catalog:blog_detail', args=[self.kwargs.get('pk')])
 
 
 class BlogDeleteView(DeleteView):
     model = Blog
-    success_url = reverse_lazy('catalog:home')
+    success_url = reverse_lazy('catalog:blg')
 
 # Контроллер FBV
 # def home(request):
