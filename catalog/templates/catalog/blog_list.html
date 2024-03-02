@@ -19,12 +19,14 @@
                            class="btn btn-lg btn-block btn-outline-secondary">Редактировать</a></li>
                     <li><a href="{% url 'catalog:delete' blog.pk %}" type="button"
                            class="btn btn-lg btn-block btn-outline-secondary">Удалить</a></li>
-                </div>
-                {% if object.is_active %}
-                    <a class="btn btn-warning" href="{% url 'catalog:toggle_published' blog.pk %}">Отменить публикацию</a>
-                {% else %}
+                    {% if blog.is_active %}
+                    <a class="btn btn-warning" href="{% url 'catalog:toggle_published' blog.pk %}">Отменить
+                        публикацию</a>
+                    {% else %}
                     <a class="btn btn-success" href="{% url 'catalog:toggle_published' blog.pk %}">Опубликовать</a>
-                {% endif %}
+                    {% endif %}
+                </div>
+
             </div>
         </div>
         {% endfor %}
