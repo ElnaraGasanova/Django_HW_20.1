@@ -13,11 +13,11 @@
                     <h1 class="card-title pricing-card-title">{{ blog }}</h1>
                     <ul class="list-unstyled mt-3 mb-4 text-start m-3">
                     </ul>
-                    <li><a href="{% url 'catalog:blog_info' blog.pk %}" type="button"
+                    <li><a href="{% url 'catalog:blog_detail' blog.pk %}" type="button"
                            class="btn btn-lg btn-block btn-outline-secondary">Посмотреть</a></li>
-                    <li><a href="{% url 'catalog:blog_update' blog.pk %}" type="button"
+                    <li><a href="{% url 'catalog:update' blog.pk %}" type="button"
                            class="btn btn-lg btn-block btn-outline-secondary">Редактировать</a></li>
-                    <li><a href="{% url 'catalog:blog_delete' blog.pk %}" type="button"
+                    <li><a href="{% url 'catalog:delete' blog.pk %}" type="button"
                            class="btn btn-lg btn-block btn-outline-secondary">Удалить</a></li>
                 </div>
             </div>

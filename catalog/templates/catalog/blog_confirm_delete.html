@@ -9,7 +9,7 @@
                         {% csrf_token %}
                         <p>Подтвердите удаление публикации "{{ object.title }}."</p>
                         <button type="submit" class="btn btn-success">Подтвердить</button>
-                        <a href="{% url 'catalog:home' %}" class="btn btn-danger">Отменить</a>
+                        <a href="{% url 'catalog:blg' %}" class="btn btn-danger">Отменить</a>
                     </form>
                 </div>
             </div>
