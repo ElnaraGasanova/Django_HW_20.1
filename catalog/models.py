@@ -57,4 +57,4 @@ class Blog(models.Model):
         ordering = ['created_at', 'published', 'view_counter',]
 
     def __str__(self):
-        return f'Запись {self.title} опубликована {self.published}'
+        return f'{self.title}'
