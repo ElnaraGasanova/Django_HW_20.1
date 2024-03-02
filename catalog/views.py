@@ -1,4 +1,4 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, get_object_or_404, redirect
 from django.urls import reverse_lazy
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 
@@ -13,12 +13,6 @@ class HomeView(ListView):
 # Контроллер CBV
 class ProductDetailView(DetailView):
     model = Product
-
-    # def get_object(self, queryset=None):
-    #     self.object = super().get_object(queryset)
-    #     self.object.view_counter += 1
-    #     self.object.save()
-    #     return self.object
 
 
 # Контроллер FBV
@@ -58,7 +52,7 @@ class BlogCreateView(CreateView):
 class BlogUpdateView(UpdateView):
     '''Описываем поля, которые будут заполняться при изменении данных публикации'''
     model = Blog
-    fields = ('title', 'content', 'image', 'published')
+    fields = ('title', 'content', 'image', 'is_active')
 
     def get_success_url(self):
         return reverse_lazy('catalog:blog_detail', args=[self.kwargs.get('pk')])
@@ -67,6 +61,18 @@ class BlogUpdateView(UpdateView):
 class BlogDeleteView(DeleteView):
     model = Blog
     success_url = reverse_lazy('catalog:blg')
+
+
+def toggle_published(request, pk):
+    publication_item = get_object_or_404(Blog, pk=pk)
+    if publication_item.is_active:
+        publication_item.is_active = False
+    else:
+        publication_item.is_active = True
+
+    publication_item.save()
+
+    return redirect(reverse_lazy('catalog:blg'))
 
 # Контроллер FBV
 # def home(request):
