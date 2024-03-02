@@ -63,7 +63,7 @@ class BlogUpdateView(UpdateView):
     def form_valid(self, form):
         if form.is_valid():
             new_blog = form.save()
-            new_blog.slug = slugify(new_blog.header)
+            new_blog.slug = slugify(new_blog.title)
             new_blog.save()
 
         return super().form_valid(form)
