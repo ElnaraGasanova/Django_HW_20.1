@@ -20,7 +20,7 @@
                     <li><a href="{% url 'catalog:delete' blog.pk %}" type="button"
                            class="btn btn-lg btn-block btn-outline-secondary">Удалить</a></li>
                 </div>
-                {% if blog.is_active %}
+                {% if blog.is_published %}
                 <a class="btn btn-warning" href="{% url 'catalog:toggle_published' blog.pk %}">Отменить
                     публикацию</a>
                 {% else %}

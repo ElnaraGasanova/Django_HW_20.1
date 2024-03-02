@@ -47,14 +47,14 @@ class Blog(models.Model):
     image = models.ImageField(upload_to='blog_images', verbose_name='Изображение (превью)', **NULLABLE,
                               help_text='Приложите фото')
     created_at = models.DateField(verbose_name='Дата создания', auto_now_add=True, **NULLABLE)
-    is_active = models.BooleanField(verbose_name='Опубликовано', default=True)
+    is_published = models.BooleanField(verbose_name='Опубликовано', default=True)
     view_counter = models.PositiveIntegerField(verbose_name='Счетчик просмотров',
                                                help_text='Укажите кол-во просмотров', default=0)
 
     class Meta:
         verbose_name = 'Публикация'
         verbose_name_plural = 'Публикации'
-        ordering = ['created_at', 'is_active', 'view_counter',]
+        ordering = ['created_at', 'is_published', 'view_counter',]
 
     def __str__(self):
         return f'{self.title}'

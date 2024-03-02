@@ -16,7 +16,7 @@ urlpatterns = [
     path('blog/create/', BlogCreateView.as_view(), name='create'),
     path('blog/<int:pk>/update/', BlogUpdateView.as_view(), name='update'),
     path('blog/<int:pk>/delete/', BlogDeleteView.as_view(), name='delete'),
-    path('blog/<int:pk>/is_active/', toggle_published, name='toggle_published'),
+    path('blog/<int:pk>/is_published/', toggle_published, name='toggle_published'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 #     path('contacts/', ContactsPageView.as_view(), name='w')

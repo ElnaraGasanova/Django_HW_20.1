@@ -52,7 +52,7 @@ class BlogCreateView(CreateView):
 class BlogUpdateView(UpdateView):
     '''Описываем поля, которые будут заполняться при изменении данных публикации'''
     model = Blog
-    fields = ('title', 'content', 'image', 'is_active')
+    fields = ('title', 'content', 'image', 'is_published')
 
     def get_success_url(self):
         return reverse_lazy('catalog:blog_detail', args=[self.kwargs.get('pk')])
@@ -65,10 +65,10 @@ class BlogDeleteView(DeleteView):
 
 def toggle_published(request, pk):
     publication_item = get_object_or_404(Blog, pk=pk)
-    if publication_item.is_active:
-        publication_item.is_active = False
+    if publication_item.is_published:
+        publication_item.is_published = False
     else:
-        publication_item.is_active = True
+        publication_item.is_published = True
 
     publication_item.save()
 

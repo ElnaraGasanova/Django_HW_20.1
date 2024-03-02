@@ -18,6 +18,6 @@ class ProductAdmin(admin.ModelAdmin):
 
 @admin.register(Blog)
 class BlogAdmin(admin.ModelAdmin):
-    list_display = ("id", "title", "is_active", "slug",)
+    list_display = ("id", "title", "is_published", "slug",)
     list_filter = ("title",)
-    search_fields = ("title", "is_active",)
+    search_fields = ("title", "is_published",)
