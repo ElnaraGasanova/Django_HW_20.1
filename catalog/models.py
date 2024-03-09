@@ -14,6 +14,7 @@ class Category(models.Model):
         ordering = ['name',]
 
     def __str__(self):
+        '''Добавляем строковое отображение'''
         return self.name
 
 
@@ -37,6 +38,7 @@ class Product(models.Model):
         ordering = ['name',]
 
     def __str__(self):
+        '''Добавляем строковое отображение'''
         return f' {self.name}'
 
 
@@ -57,4 +59,22 @@ class Blog(models.Model):
         ordering = ['created_at', 'is_published', 'view_counter',]
 
     def __str__(self):
+        '''Добавляем строковое отображение'''
         return f'{self.title}'
+
+
+class Version(models.Model):
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, verbose_name='Продукт')
+    number = models.IntegerField(default=1,verbose_name='Номер версии', help_text='Укажите номер версии')
+    name = models.CharField(max_length=100, verbose_name='Название версии', **NULLABLE)
+    working_ver = models.BooleanField(default=False, verbose_name='Признак версии',
+                                    help_text='Укажите признак текущей версии')
+
+    def __str__(self):
+        '''Добавляем строковое отображение'''
+        return f'Версия {self.product} == {self.number}'
+
+    class Meta:
+        verbose_name = 'Версия'
+        verbose_name_plural = 'Версии'
+        ordering = ['product', 'working_ver',]
