@@ -10,10 +10,48 @@ from catalog.models import Product, Blog
 class HomeView(ListView):
     model = Product
 
+    def get_queryset(self, *args, **kwargs):
+        queryset = super().get_queryset(*args, **kwargs)
+        return queryset
+
 
 # Контроллер CBV
 class ProductDetailView(DetailView):
     model = Product
+
+    def get_object(self, queryset=None):
+        self.object = super().get_object(queryset)
+        self.object.save()
+        return self.object
+
+
+class ProductCreateView(CreateView):
+    '''Описываем поля, которые будут заполняться при создании нов.продукта'''
+    model = Product
+    fields = ('name', 'description', 'price', 'image',)
+    success_url = reverse_lazy('catalog:blg')
+
+
+class ProductUpdateView(UpdateView):
+    '''Описываем поля, которые будут заполняться при изменении данных продукта'''
+    model = Product
+    fields = ('name', 'description', 'price',)
+
+    def get_success_url(self, *args, **kwargs):
+        return reverse_lazy('catalog:product_detail', args=[self.kwargs.get('pk')])
+
+    # def form_valid(self, form):
+    #     if form.is_valid():
+    #         new_blog = form.save()
+    #         new_blog.slug = slugify(new_blog.title)
+    #         new_blog.save()
+    #
+    #     return super().form_valid(form)
+
+
+class ProductDeleteView(DeleteView):
+    model = Product
+    success_url = reverse_lazy('catalog:blg')
 
 
 # Контроллер FBV
@@ -68,7 +106,7 @@ class BlogUpdateView(UpdateView):
 
         return super().form_valid(form)
 
-    def get_success_url(self):
+    def get_success_url(self, *args, **kwargs):
         return reverse_lazy('catalog:blog_detail', args=[self.kwargs.get('pk')])
 
 
