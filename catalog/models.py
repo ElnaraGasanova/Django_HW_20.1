@@ -68,8 +68,8 @@ class Version(models.Model):
 
     number = models.FloatField(verbose_name='Номер версии', help_text='Укажите номер версии')
     name = models.CharField(max_length=100, verbose_name='Название версии', **NULLABLE)
-    working_ver = models.BooleanField(verbose_name='Признак версии',
-                                    help_text='Укажите признак текущей версии')
+    working_ver = models.BooleanField(verbose_name='Признак версии', **NULLABLE,
+                                      help_text='Укажите признак текущей версии')
 
     def __str__(self):
         '''Добавляем строковое отображение'''
