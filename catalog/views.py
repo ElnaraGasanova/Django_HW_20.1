@@ -29,7 +29,7 @@ class ProductCreateView(CreateView):
     '''Описываем поля, которые будут заполняться при создании нов.продукта'''
     model = Product
     fields = ('name', 'description', 'price', 'image',)
-    success_url = reverse_lazy('catalog:blg')
+    success_url = reverse_lazy('catalog:home')
 
 
 class ProductUpdateView(UpdateView):
@@ -51,7 +51,7 @@ class ProductUpdateView(UpdateView):
 
 class ProductDeleteView(DeleteView):
     model = Product
-    success_url = reverse_lazy('catalog:blg')
+    success_url = reverse_lazy('catalog:home')
 
 
 # Контроллер FBV
