@@ -1,0 +1,1835 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2024-02-13T10:20:41.734Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Овощи и Фрукты",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2024-02-13T10:21:16.837Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Готовая еда",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2024-02-13T10:21:56.030Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "3",
+      "object_repr": "Сладости и десерты.",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2024-02-13T10:23:15.773Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "4",
+      "object_repr": "Чай и Кофе",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2024-02-13T10:23:30.636Z",
+      "user": 2,
+      "content_type": 8,
+      "object_id": "5",
+      "object_repr": "Товары для животных",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2024-02-13T10:26:23.989Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Ананас медовый",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2024-02-13T10:28:21.531Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Виноград измирский б/к",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2024-02-13T10:30:14.471Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Ассорти Бакинское (томаты, огурцы)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2024-02-13T10:32:15.285Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Биточки из курицы и капусты",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2024-02-13T10:34:04.076Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Блины с «Крем чиз» и вишней",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2024-02-13T10:36:24.476Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Ассорти эклеров «Манго, Сырный, Лесные ягоды»",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2024-02-13T10:38:15.497Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "«Ромовая баба с вишней и крем-чиз»",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2024-02-13T10:40:30.490Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Корм влажный для взрослых кошек «Паштет с лососем»",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2024-02-13T10:42:59.768Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Корм сухой для взр.собак крупных пород с курицей",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2024-02-13T10:45:26.948Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Кофе «Arabica Solo» жареный в зернах FRESCO",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2024-02-13T10:47:21.868Z",
+      "user": 2,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": "Горный чабрец",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2024-02-22T19:38:42.606Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "«Ромовая баба с вишней и крем-чиз»",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2024-02-22T19:38:53.631Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Ананас медовый",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2024-02-22T19:39:02.559Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "Ассорти Бакинское (томаты, огурцы)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2024-02-22T19:39:11.353Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "Ассорти эклеров «Манго, Сырный, Лесные ягоды»",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2024-02-22T19:39:22.399Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "Биточки из курицы и капусты",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2024-02-22T19:39:32.614Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "Блины с «Крем чиз» и вишней",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2024-02-22T19:39:45.566Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "Виноград измирский б/к",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2024-02-22T19:39:53.403Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": "Горный чабрец",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2024-02-22T19:40:04.074Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "Корм влажный для взрослых кошек «Паштет с лососем»",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2024-02-22T19:40:12.178Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": "Корм сухой для взр.собак крупных пород с курицей",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2024-02-22T19:40:21.150Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": "Кофе «Arabica Solo» жареный в зернах FRESCO",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2024-02-22T19:40:27.247Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "13",
+      "object_repr": "Рис",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2024-02-22T19:40:30.476Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "12",
+      "object_repr": "Рис",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2024-02-22T19:40:37.564Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "«Ромовая баба с вишней и крем-чиз»",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2024-02-22T19:40:50.861Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "«Ромовая баба с вишней и крем-чиз»",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2024-02-27T17:09:39.327Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "14",
+      "object_repr": " Гречка (165132) 100 руб.",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2024-02-27T17:09:51.134Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "14",
+      "object_repr": " Гречка (165132) 100 руб.",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2024-02-27T17:10:42.499Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": " «Ромовая баба с вишней и крем-чиз» (Бисквитный десерт со творожным сыром и спелой вишней. Вкус десерта покоряет звучание сливочно-ягодных нот, которые органично дополняют нежный вкус теста.\r\nГоден 4 ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2024-02-27T17:30:39.850Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": " «Ромовая баба с вишней и крем-чиз» (Бисквитный десерт со творожным сыром и спелой вишней. Вкус десерта покоряет звучание сливочно-ягодных нот, которые органично дополняют нежный вкус теста.\r\nГоден 4 ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2024-02-27T17:30:47.283Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": " «Ромовая баба с вишней и крем-чиз» (Бисквитный десерт со творожным сыром и спелой вишней. Вкус десерта покоряет звучание сливочно-ягодных нот, которые органично дополняют нежный вкус теста.\r\nГоден 4 ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2024-02-27T17:30:53.441Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": " Ананас медовый (Собран вручную, как только созрел!\r\nАнанас - настоящий коктейль фруктовых, тропических, насыщенных вкусов и ароматов.\r\nМы выбрали именно этот ананас за насыщенно сладкий вкус, будораж",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2024-02-27T17:31:00.622Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": " Ассорти Бакинское (томаты, огурцы) (Легендарные овощи из солнечного Баку. Небольшие, с тонкой розовой кожицей и сочной, сладкой мякотью. Хрустящие, нежные и ароматные огурцы. Ассорти для самого аппет",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2024-02-27T17:31:10.957Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": " Ассорти эклеров «Манго, Сырный, Лесные ягоды» (Классический французский десерт из заварного теста с нетривиальной начинкой. Крем с пюре спелого манго, сладкий сливочный сыр, крем с сочными лесными яг",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2024-02-27T17:31:25.238Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": " Биточки из курицы и капусты (Большая порция сочных биточков из курицы и белокочанной капусты. Добавьте любимый гарнир или овощной салат — и сытный обед для всей семьи готов!\r\nГоден 4 суток.\r\nПищевая ",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2024-02-27T17:31:33.663Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": " Блины с «Крем чиз» и вишней (Десертные блинчики с начинкой из творожного сыра и вишней. Нежные, лёгкие, умеренно сладкие, с приятной ягодной кислинкой. Идеально подходят для завтрака.\r\nГоден 4 суток.",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2024-02-27T17:31:41.940Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": " Виноград измирский б/к (Освежающе-сладкий, сочный и без косточек. Виноград отлично дополнит салаты с курицей и индейкой, канапе с сыром и тарталетки с паштетом.\r\nГоден 21 суток.\r\nВес 500г.) 640 руб.",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2024-02-27T17:31:50.190Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": " Горный чабрец (Горный чабрец обладает насыщенным пряным ароматом и ярким вкусом. Чай с чабрецом поможет снять усталость, взбодрит и придаст сил. Рекомендуется при частых стрессах и бессоннице.\r\nГоден",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2024-02-27T17:31:58.772Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "14",
+      "object_repr": " Гречка (165132) 100 руб.",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2024-02-27T17:32:02.898Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "14",
+      "object_repr": " Гречка (165132) 100 руб.",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2024-02-27T17:32:33.612Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "14",
+      "object_repr": " Гречка (Чистая, крупная.) 100 руб.",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0438\\u0441\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2024-02-27T17:32:40.541Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": " Корм влажный для взрослых кошек «Паштет с лососем» (Сбалансированный, сытный и очень аппетитный корм для пушистых питомцев, изготовленный на основе свиных и куриных субпродуктов с добавлением лосося.",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 48,
+    "fields": {
+      "action_time": "2024-02-27T17:32:52.950Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": " Корм сухой для взр.собак крупных пород с курицей (Полнорационный сбалансированный корм для любимого четвероногого друга! Подходит собакам возрастом от 12 месяцев и весом от 26 до 44 кг.\r\nВ основе кор",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 49,
+    "fields": {
+      "action_time": "2024-02-27T17:33:01.674Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": " Кофе «Arabica Solo» жареный в зернах FRESCO (Ароматный бленд южноафриканских сортов арабики. У кофе средне-тёмная обжарка и яркий вкус с малозаметной кислинкой.\r\nГоден 18 месяцев.\r\nВес 1кг.) 1620 руб",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 50,
+    "fields": {
+      "action_time": "2024-02-27T17:33:07.730Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "13",
+      "object_repr": " Рис (Не слипается при варке) 120 руб.",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 51,
+    "fields": {
+      "action_time": "2024-02-27T17:33:15.289Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "13",
+      "object_repr": " Рис (Не слипается при варке) 120 руб.",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 52,
+    "fields": {
+      "action_time": "2024-02-27T17:33:18.721Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "12",
+      "object_repr": " Рис (Не слипается при варке) 120 руб.",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 53,
+    "fields": {
+      "action_time": "2024-02-27T17:33:32.858Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "13",
+      "object_repr": " Рис (Не слипается при варке) 120 руб.",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 54,
+    "fields": {
+      "action_time": "2024-02-27T17:33:32.861Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "12",
+      "object_repr": " Рис (Не слипается при варке) 120 руб.",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 55,
+    "fields": {
+      "action_time": "2024-02-27T21:25:59.980Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": " «Ромовая баба с вишней и крем-чиз»",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 56,
+    "fields": {
+      "action_time": "2024-02-27T21:26:06.926Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": " Ананас медовый",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 57,
+    "fields": {
+      "action_time": "2024-02-27T21:26:14.805Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": " Ассорти Бакинское (томаты, огурцы)",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 58,
+    "fields": {
+      "action_time": "2024-02-27T21:26:30.963Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": " Ассорти эклеров «Манго, Сырный, Лесные ягоды»",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 59,
+    "fields": {
+      "action_time": "2024-02-27T21:26:40.444Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": " Биточки из курицы и капусты",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 60,
+    "fields": {
+      "action_time": "2024-02-27T21:26:50.131Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": " Блины с «Крем чиз» и вишней",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 61,
+    "fields": {
+      "action_time": "2024-02-27T21:27:00.579Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "11",
+      "object_repr": " Горный чабрец",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 62,
+    "fields": {
+      "action_time": "2024-02-27T21:27:08.497Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "14",
+      "object_repr": " Гречка",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 63,
+    "fields": {
+      "action_time": "2024-02-27T21:27:15.892Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": " Корм влажный для взрослых кошек «Паштет с лососем»",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 64,
+    "fields": {
+      "action_time": "2024-02-27T21:27:23.068Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "9",
+      "object_repr": " Корм сухой для взр.собак крупных пород с курицей",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 65,
+    "fields": {
+      "action_time": "2024-02-27T21:27:29.256Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "10",
+      "object_repr": " Кофе «Arabica Solo» жареный в зернах FRESCO",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 66,
+    "fields": {
+      "action_time": "2024-02-29T11:01:07.692Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "16",
+      "object_repr": " Торт \"Три шоколада\"",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u0418\\u0437\\u043e\\u0431\\u0440\\u0430\\u0436\\u0435\\u043d\\u0438\\u0435 (\\u043f\\u0440\\u0435\\u0432\\u044c\\u044e)\", \"\\u041a\\u0430\\u0442\\u0435\\u0433\\u043e\\u0440\\u0438\\u044f\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 67,
+    "fields": {
+      "action_time": "2024-03-02T09:30:49.215Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "2",
+      "object_repr": "Конкурс детских рисунков!",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 68,
+    "fields": {
+      "action_time": "2024-03-02T09:30:54.144Z",
+      "user": 1,
+      "content_type": 9,
+      "object_id": "5",
+      "object_repr": "История меренговых рулетов",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041e\\u043f\\u0443\\u0431\\u043b\\u0438\\u043a\\u043e\\u0432\\u0430\\u043d\\u043e\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 69,
+    "fields": {
+      "action_time": "2024-03-11T19:29:49.719Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "4",
+      "object_repr": "Версия  Тест версии == 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0438\\u0437\\u043d\\u0430\\u043a \\u0432\\u0435\\u0440\\u0441\\u0438\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 70,
+    "fields": {
+      "action_time": "2024-03-11T19:29:53.942Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "2",
+      "object_repr": "Версия  Тест версии == 1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0438\\u0437\\u043d\\u0430\\u043a \\u0432\\u0435\\u0440\\u0441\\u0438\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 71,
+    "fields": {
+      "action_time": "2024-03-11T19:58:04.721Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "Версия  Тест версии == 2.0",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0438\\u0437\\u043d\\u0430\\u043a \\u0432\\u0435\\u0440\\u0441\\u0438\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 72,
+    "fields": {
+      "action_time": "2024-03-11T19:58:10.004Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "Версия  Тест CRUD == 1.0",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0438\\u0437\\u043d\\u0430\\u043a \\u0432\\u0435\\u0440\\u0441\\u0438\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 73,
+    "fields": {
+      "action_time": "2024-03-11T19:59:04.152Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8",
+      "object_repr": "Версия  Тест CRUD == 2.0",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0438\\u0437\\u043d\\u0430\\u043a \\u0432\\u0435\\u0440\\u0441\\u0438\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 74,
+    "fields": {
+      "action_time": "2024-03-11T20:59:43.605Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Версия  «Ромовая баба с вишней и крем-чиз» == 1113.0",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0438\\u0437\\u043d\\u0430\\u043a \\u0432\\u0435\\u0440\\u0441\\u0438\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 75,
+    "fields": {
+      "action_time": "2024-03-11T20:59:51.018Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "8",
+      "object_repr": "Версия  Тест CRUD == 2.0",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0438\\u0437\\u043d\\u0430\\u043a \\u0432\\u0435\\u0440\\u0441\\u0438\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 76,
+    "fields": {
+      "action_time": "2024-03-11T20:59:56.835Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "6",
+      "object_repr": "Версия  Тест CRUD == 1.0",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0438\\u0437\\u043d\\u0430\\u043a \\u0432\\u0435\\u0440\\u0441\\u0438\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 77,
+    "fields": {
+      "action_time": "2024-03-11T21:00:03.058Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "Версия  Тест версии == 2.0",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 78,
+    "fields": {
+      "action_time": "2024-03-11T21:00:05.907Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "3",
+      "object_repr": "Версия  Тест версии == 1.0",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 79,
+    "fields": {
+      "action_time": "2024-03-11T21:00:43.139Z",
+      "user": 1,
+      "content_type": 8,
+      "object_id": "7",
+      "object_repr": "Бакалея",
+      "action_flag": 3,
+      "change_message": ""
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 80,
+    "fields": {
+      "action_time": "2024-03-11T21:20:09.609Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "10",
+      "object_repr": "Версия  Тест версии == 5.5",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0438\\u0437\\u043d\\u0430\\u043a \\u0432\\u0435\\u0440\\u0441\\u0438\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 81,
+    "fields": {
+      "action_time": "2024-03-11T21:20:17.963Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "Версия  Тест версии == 2.0",
+      "action_flag": 2,
+      "change_message": "[]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 82,
+    "fields": {
+      "action_time": "2024-03-11T21:20:34.647Z",
+      "user": 1,
+      "content_type": 10,
+      "object_id": "7",
+      "object_repr": "Версия  Тест версии == 2.0",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041f\\u0440\\u0438\\u0437\\u043d\\u0430\\u043a \\u0432\\u0435\\u0440\\u0441\\u0438\\u0438\"]}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Продукт",
+      "content_type": 7,
+      "codename": "add_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Продукт",
+      "content_type": 7,
+      "codename": "change_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Продукт",
+      "content_type": 7,
+      "codename": "delete_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Продукт",
+      "content_type": 7,
+      "codename": "view_product"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Категория",
+      "content_type": 8,
+      "codename": "add_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Категория",
+      "content_type": 8,
+      "codename": "change_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Категория",
+      "content_type": 8,
+      "codename": "delete_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Категория",
+      "content_type": 8,
+      "codename": "view_category"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Публикация",
+      "content_type": 9,
+      "codename": "add_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Публикация",
+      "content_type": 9,
+      "codename": "change_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Публикация",
+      "content_type": 9,
+      "codename": "delete_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Публикация",
+      "content_type": 9,
+      "codename": "view_blog"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add Версия",
+      "content_type": 10,
+      "codename": "add_version"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change Версия",
+      "content_type": 10,
+      "codename": "change_version"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete Версия",
+      "content_type": 10,
+      "codename": "delete_version"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view Версия",
+      "content_type": 10,
+      "codename": "view_version"
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$izFcxEnWAyB2gEQJCHUqzK$7I/Y3sKshFTZ2JjgrJU3847DQu4eydSobsdScGGK8sU=",
+      "last_login": "2024-03-11T19:00:54.320Z",
+      "is_superuser": true,
+      "username": "elnara",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-02-12T22:18:36.972Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$720000$RBGOIeLtZyYaJLnHK8en0e$JHtLYr94OVZ1SvgxGJHx2trWNgS3B47xIb84EcYkAyA=",
+      "last_login": "2024-02-12T22:35:55.661Z",
+      "is_superuser": true,
+      "username": "elnara2",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2024-02-12T22:34:35.605Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 1,
+    "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 2,
+    "fields": {
+      "app_label": "auth",
+      "model": "permission"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 3,
+    "fields": {
+      "app_label": "auth",
+      "model": "group"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 4,
+    "fields": {
+      "app_label": "auth",
+      "model": "user"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 5,
+    "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 6,
+    "fields": {
+      "app_label": "sessions",
+      "model": "session"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 7,
+    "fields": {
+      "app_label": "catalog",
+      "model": "product"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 8,
+    "fields": {
+      "app_label": "catalog",
+      "model": "category"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 9,
+    "fields": {
+      "app_label": "catalog",
+      "model": "blog"
+    }
+  },
+  {
+    "model": "contenttypes.contenttype",
+    "pk": 10,
+    "fields": {
+      "app_label": "catalog",
+      "model": "version"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "0crqwxznwxyn4477xroi42pzeemz0ta4",
+    "fields": {
+      "session_data": ".eJxVjDsOwyAQRO9CHSHDIj4p0-cMaFmW4CTCkrErK3ePLblIutG8N7OJiOtS49p5jmMWV6HE5bdLSC9uB8hPbI9J0tSWeUzyUORJu7xPmd-30_07qNjrvg7FEmfAUIx2BjMQG0fk9aBLKmgBwBMHo5S24Hy2Cj0ZhMEq3qMTny_3ezfS:1rfe9h:G3gO4iTq8G7sKl6EqydWZ6AFeJ809YPDs1E7mOhqflA",
+      "expire_date": "2024-03-14T11:00:49.148Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "2al0ywxvq3k9afwp7ycd06wu3iqve91z",
+    "fields": {
+      "session_data": ".eJxVjDsOwyAQRO9CHSHDIj4p0-cMaFmW4CTCkrErK3ePLblIutG8N7OJiOtS49p5jmMWV6HE5bdLSC9uB8hPbI9J0tSWeUzyUORJu7xPmd-30_07qNjrvg7FEmfAUIx2BjMQG0fk9aBLKmgBwBMHo5S24Hy2Cj0ZhMEq3qMTny_3ezfS:1rdErw:qDFwWFWmK-Tj5ud7wdLiRsCzXWJ7wMFAprRg4nkbX8E",
+      "expire_date": "2024-03-07T19:36:32.419Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "56kg3n1xrtmdrlqa7n7l922v07cs4x2f",
+    "fields": {
+      "session_data": ".eJxVjDsOwjAQBe_iGll45S8lPWew1t41DiBbipMq4u4QKQW0b2beJiKuS43r4DlOJC4CxOl3S5if3HZAD2z3LnNvyzwluSvyoEPeOvHrerh_BxVH_dYlsQE0KljQIRu0JVB2pI0DRdYExb4Ub3NyzisgQ0lrKiqAZn9GRPH-AOdDOBk:1rZeu3:tNaZm1s27Km2dut-wMvGz1sKX4ql9l2AV35_JQmp4oM",
+      "expire_date": "2024-02-26T22:35:55.661Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "q6g6aw89m5asgs0uhsa8qfhv24mq0cxd",
+    "fields": {
+      "session_data": ".eJxVjDsOwyAQRO9CHSHDIj4p0-cMaFmW4CTCkrErK3ePLblIutG8N7OJiOtS49p5jmMWV6HE5bdLSC9uB8hPbI9J0tSWeUzyUORJu7xPmd-30_07qNjrvg7FEmfAUIx2BjMQG0fk9aBLKmgBwBMHo5S24Hy2Cj0ZhMEq3qMTny_3ezfS:1rgKJQ:vFG9ZokkxyhUWsXXVwdnVQJNquRnBYmsPzwIPtXKPGo",
+      "expire_date": "2024-03-16T08:01:40.920Z"
+    }
+  },
+  {
+    "model": "sessions.session",
+    "pk": "qqkk3t9kfcuczzz1inx5d9j2jfnqwu1w",
+    "fields": {
+      "session_data": ".eJxVjDsOwyAQRO9CHSHDIj4p0-cMaFmW4CTCkrErK3ePLblIutG8N7OJiOtS49p5jmMWV6HE5bdLSC9uB8hPbI9J0tSWeUzyUORJu7xPmd-30_07qNjrvg7FEmfAUIx2BjMQG0fk9aBLKmgBwBMHo5S24Hy2Cj0ZhMEq3qMTny_3ezfS:1rjktK:tFJcNgph_TeYWzeb4dd4gFVTGAHXZ3BQ2cSgEQM0PVk",
+      "expire_date": "2024-03-25T19:00:54.322Z"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Овощи и Фрукты",
+      "description": "В этой категории отображаются овощи, фрукты, ягоды, зелень."
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "Готовая еда",
+      "description": "Быстро, удобно, вкусно."
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "name": "Сладости и десерты.",
+      "description": "Для поднятия настроения иногда можно )))"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+      "name": "Чай и Кофе",
+      "description": "А вы что предпочитаете? )))"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 5,
+    "fields": {
+      "name": "Товары для животных",
+      "description": ""
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 6,
+    "fields": {
+      "name": "Бакалея",
+      "description": "крупы и мука"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 7,
+    "fields": {
+      "name": "«Ромовая баба с вишней и крем-чиз»",
+      "description": "Бисквитный десерт со творожным сыром и спелой вишней. Вкус десерта покоряет звучание сливочно-ягодных нот, которые органично дополняют нежный вкус теста.\r\nГоден 4 суток.\r\nПищевая и энергетическая ценность в 100 г.:\r\nбелки 5 г; жиры 4,7 г; углеводы 48,5 г; 256,3 ккал.\r\nВес 130г.",
+      "image": "prod_images/Ромовая_баба_zGAhFUR.webp",
+      "category": 3,
+      "price": 1113,
+      "created_at": "2024-02-13",
+      "updated_at": "2024-03-11"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 8,
+    "fields": {
+      "name": "Корм влажный для взрослых кошек «Паштет с лососем»",
+      "description": "Сбалансированный, сытный и очень аппетитный корм для пушистых питомцев, изготовленный на основе свиных и куриных субпродуктов с добавлением лосося. Не содержит злаковых культур.\r\nГоден 24 месяца.\r\nВес 100г.",
+      "image": "prod_images/Влажный_корм_UQkKkEI.webp",
+      "category": 5,
+      "price": 125,
+      "created_at": "2024-02-13",
+      "updated_at": "2024-02-28"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 10,
+    "fields": {
+      "name": "Кофе «Arabica Solo» жареный в зернах FRESCO",
+      "description": "Ароматный бленд южноафриканских сортов арабики. У кофе средне-тёмная обжарка и яркий вкус с малозаметной кислинкой.\r\nГоден 18 месяцев.\r\nВес 1кг.",
+      "image": "prod_images/Кофе_AUXEJuH.webp",
+      "category": 4,
+      "price": 1620,
+      "created_at": "2024-02-13",
+      "updated_at": "2024-02-28"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 17,
+    "fields": {
+      "name": "Гранат (Азербайджан,Гёйчай)",
+      "description": null,
+      "image": "prod_images/Гранат.webp",
+      "category": 1,
+      "price": 1113,
+      "created_at": "2024-02-29",
+      "updated_at": "2024-03-11"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 18,
+    "fields": {
+      "name": "Тест версии",
+      "description": "Версии отображаются!\r\nТест - ОК!",
+      "image": "",
+      "category": 6,
+      "price": 15,
+      "created_at": "2024-03-11",
+      "updated_at": "2024-03-12"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 19,
+    "fields": {
+      "name": "Создание нового продукта",
+      "description": "Тест на вывод на нужную страницу - ОК!\r\nТест редактирования - ОК!",
+      "image": "",
+      "category": null,
+      "price": 120,
+      "created_at": "2024-03-11",
+      "updated_at": "2024-03-11"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 20,
+    "fields": {
+      "name": "Тест CRUD",
+      "description": "Создание - ОК.\r\nРедактирование - ОК.\r\nОтмена удаления - ОК.\r\nПодтверждение удаления - ОК!",
+      "image": "",
+      "category": 6,
+      "price": 99,
+      "created_at": "2024-03-11",
+      "updated_at": "2024-03-11"
+    }
+  },
+  {
+    "model": "catalog.blog",
+    "pk": 2,
+    "fields": {
+      "title": "Конкурс детских рисунков!",
+      "slug": null,
+      "content": "Для всех юных художников, принявших участие в конкурсе, мы приготовили подарки — ведь каждый из них так старался, поделился частичкой своего красочного мира. Мы очень это ценим и думаем, что все — большие молодцы!",
+      "image": "blog_images/Детский_конкурс_b9YfxBI.jpg",
+      "created_at": "2024-03-02",
+      "is_published": true,
+      "view_counter": 11
+    }
+  },
+  {
+    "model": "catalog.blog",
+    "pk": 4,
+    "fields": {
+      "title": "BAIC U5 PLUS",
+      "slug": null,
+      "content": "ПРАКТИЧНОСТЬ И КОМФОРТ!",
+      "image": "blog_images/Баик.webp",
+      "created_at": "2024-03-02",
+      "is_published": true,
+      "view_counter": 15
+    }
+  },
+  {
+    "model": "catalog.blog",
+    "pk": 5,
+    "fields": {
+      "title": "История меренговых рулетов",
+      "slug": null,
+      "content": "Считается, что меренга была изобретена в Швейцарии в конце XVII века. Однако первое упоминание о меренге в печати появилось только в 1692 году в книге французского повара Франсуа Массиало «Королевский и буржуазный кулинар».",
+      "image": "blog_images/Публикация2_JxGzkap.webp",
+      "created_at": "2024-03-02",
+      "is_published": true,
+      "view_counter": 10
+    }
+  },
+  {
+    "model": "catalog.blog",
+    "pk": 11,
+    "fields": {
+      "title": "https://lenta.ru",
+      "slug": "httpslentaru",
+      "content": "Новости",
+      "image": "",
+      "created_at": "2024-03-02",
+      "is_published": true,
+      "view_counter": 8
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 1,
+    "fields": {
+      "product": 7,
+      "number": 1113.0,
+      "name": "Новая упаковка",
+      "working_ver": true
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 3,
+    "fields": {
+      "product": 18,
+      "number": 1.0,
+      "name": "Обновленная версия",
+      "working_ver": false
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 6,
+    "fields": {
+      "product": 20,
+      "number": 1.0,
+      "name": "Новая версия",
+      "working_ver": false
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 7,
+    "fields": {
+      "product": 18,
+      "number": 2.0,
+      "name": "Обновленная версия",
+      "working_ver": false
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 8,
+    "fields": {
+      "product": 20,
+      "number": 2.0,
+      "name": "Обновленная версия",
+      "working_ver": true
+    }
+  },
+  {
+    "model": "catalog.version",
+    "pk": 10,
+    "fields": {
+      "product": 18,
+      "number": 5.5,
+      "name": "Последняя версия",
+      "working_ver": true
+    }
+  }
+]
