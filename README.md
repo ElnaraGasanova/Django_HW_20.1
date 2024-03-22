@@ -33,7 +33,7 @@ git clone https://github.com
 ```
 * Создайте виртуальное окружение и активируйте его:
 ```
-python3 -m venv venv
+python -m venv venv
 venv\Scripts\activate
 ```
 p.s. Для выхода из виртуального окружения и возврата к глобальному
@@ -43,7 +43,7 @@ deactivate
 ```
 * Для установки всех библиотек выполните команду:
 ```
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 * Для соединения с pgAdmin внесите информацию о пароле в config/settings.py в 
 разделе DATABASES = ...
