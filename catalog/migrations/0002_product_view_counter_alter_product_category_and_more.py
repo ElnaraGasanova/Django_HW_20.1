@@ -7,7 +7,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('catalog', '0001_initial'),
+        ('users', '0001_initial'),
     ]
 
     operations = [
@@ -19,7 +19,7 @@ class Migration(migrations.Migration):
         migrations.AlterField(
             model_name='product',
             name='category',
-            field=models.ForeignKey(blank=True, help_text='Категория товара', null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='products', to='catalog.category', verbose_name='Категория'),
+            field=models.ForeignKey(blank=True, help_text='Категория товара', null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='products', to='users.category', verbose_name='Категория'),
         ),
         migrations.AlterField(
             model_name='product',

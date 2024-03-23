@@ -6,7 +6,7 @@ from django.db import migrations, models
 class Migration(migrations.Migration):
 
     dependencies = [
-        ('catalog', '0010_alter_version_options_alter_version_number_and_more'),
+        ('users', '0010_alter_version_options_alter_version_number_and_more'),
     ]
 
     operations = [
