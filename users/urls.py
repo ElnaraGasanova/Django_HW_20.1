@@ -13,5 +13,3 @@ urlpatterns = [
     path('registration/', UserRegisterView.as_view(), name='registration'),
     path('confirm_register/<str:token>/', confirm_email, name='confirm_email'),
 ] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-
-#     path('contacts/', ContactsPageView.as_view(), name='w')
