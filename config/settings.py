@@ -1,12 +1,18 @@
 from pathlib import Path
 
+# Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
+
 
 SECRET_KEY = 'django-insecure-&uuk+l2d15kyq&#bkql1kpe8y-05&6f-lzg63+1(6#o_8peml6'
 
+# SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = []
+
+
+# Application definition
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -50,6 +56,10 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'config.wsgi.application'
 
+
+# Database
+# https://docs.djangoproject.com/en/5.0/ref/settings/#databases
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
@@ -60,6 +70,10 @@ DATABASES = {
         'PASSWORD': 'QWErty111'
     }
 }
+
+
+# Password validation
+# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
 
 AUTH_PASSWORD_VALIDATORS = [
     {
@@ -76,6 +90,8 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+
+
 LANGUAGE_CODE = 'ru-ru'
 
 TIME_ZONE = 'UTC'
@@ -83,6 +99,7 @@ TIME_ZONE = 'UTC'
 USE_I18N = True
 
 USE_TZ = True
+
 
 STATIC_URL = 'static/'
 STATICFILES_DIRS = (BASE_DIR / 'static',)

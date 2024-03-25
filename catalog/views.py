@@ -11,6 +11,7 @@ from catalog.models import Product, Blog, Version
 class HomeView(ListView):
     '''Класс вывода всех продуктов.'''
     model = Product
+    template_name = 'product_list.html'
 
     def get_queryset(self, *args, **kwargs):
         queryset = super().get_queryset(*args, **kwargs)
@@ -173,27 +174,3 @@ def toggle_published(request, pk):
     publication_item.save()
 
     return redirect(reverse_lazy('catalog:blg'))
-
-# Контроллер FBV
-# def home(request):
-#     '''Выводит на страницу все товары'''
-#     products = Product.objects.all()
-#     context = {
-#         'object_list': products
-#     }
-#     return render(request, 'catalog/product_list.html', context)
-
-
-# Контроллер FBV
-# def product_info(request, pk):
-#     '''Выводит на страницу товар по pk.'''
-#     product = get_object_or_404(Product, pk=pk)
-#     context = {
-#         'object': product
-#     }
-#     return render(request, 'catalog/product_detail.html', context)
-
-
-# Контроллер CBV
-# class ContactsPageView(TemplateView):
-#     template_name = "contacts.html"

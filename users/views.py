@@ -1,7 +1,8 @@
+from django.contrib.auth.views import PasswordResetView
 from django.shortcuts import get_object_or_404, redirect
 from django.urls import reverse
 from django.views.generic import CreateView
-from users.forms import UserRegisterForm
+from users.forms import UserRegisterForm, UserForgotPasswordForm
 from users.models import User
 import secrets
 from django.conf import settings
@@ -38,3 +39,7 @@ def confirm_email(request, token):
     user.is_active = True
     user.save()
     return redirect(reverse('users:login'))
+
+
+class UserForgotPassword(PasswordResetView):
+    form_class = UserForgotPasswordForm
